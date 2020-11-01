@@ -1,0 +1,61 @@
+/* merah : #760619
+        coklat : #AF757A
+        orange : #EA9218
+      */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e9e3d9;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+article {
+  color: rgb(50, 50, 50);
+}
+
+.title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #760619;
+}
+
+.desc-link {
+  font-size: 1.1em;
+  font-weight: 500;
+  border-bottom: 3px #ea9218 solid;
+  display: inline-block;
+  line-height: 1.3;
+  color: #760619;
+}
+
+.desc-link:hover {
+  color: #ea9218;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+}
