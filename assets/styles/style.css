@@ -45,6 +45,37 @@ article {
   color: #ea9218;
 }
 
+
+.button-link {
+  padding: 1rem 1rem;
+  width: 250px;
+  text-align: center;
+  background-color: #590311;
+  color: white;
+  border-radius: 30px;
+}
+
+.button-link:hover {
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+}
+
+
+#veart {
+  background-image: url('../images/bg-veart.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#verde {
+  background-image: url('../images/bg-verde.png');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 @media (min-width: 576px) {
 }
 

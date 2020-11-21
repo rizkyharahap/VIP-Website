@@ -24,7 +24,10 @@
 
     <link rel="stylesheet" href="assets/styles/style.css" />
   </head>
-  <body>
+  <body id="veart">
+    <!-- Banner ------------------------------------------------------------------------------------->
+    <div style="height: 100vh"></div>
+
     <!-- Pameran Virtual----------------------------------------------------------------------------->
     <section class="container">
       <div class="row mb-5">
@@ -110,39 +113,149 @@
           besar dan peduli terhadap kebudayaan Indonesia.
         </p>
       </article>
+
+      <div>
+        <div id="accordion">
+          <div style="background: transparent" id="timelineHeading">
+            <h5 class="mb-0">
+              <a
+                class="desc-link"
+                data-toggle="collapse"
+                href="#timelineColapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="timelineColapse"
+              >
+                TIMELINE
+              </a>
+            </h5>
+          </div>
+
+          <div
+            id="timelineColapse"
+            class="collapse"
+            aria-labelledby="timelineHeading"
+            data-parent="#accordion"
+          >
+            <div class="card-body">
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th scope="col">Tanggal</th>
+                    <th scope="col">Kegiatan</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">8 November 2020</th>
+                    <td>Pembukaan Pendaftaran Peserta</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">19 November 2020</th>
+                    <td>Penutupan Pendaftaran Peserta</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">21 November 2020</th>
+                    <td>
+                      Technical Meeting dan Pembukaan Pengumpulan Karya Peserta
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">14 Desember 2020</th>
+                    <td>Penutupan Pengumpulan Karya Peserta</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">18 Desember 2020</th>
+                    <td>Save Date</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">21 Desember 2020</th>
+                    <td>Batas Akhir Save Date</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">27 Desember 2020</th>
+                    <td>
+                      Pembukaan Acara Veteran Art dan Pengisi Materi UKM 1dan
+                      Karnaval Kesenian
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">2 Januari 2021</th>
+                    <td>Pengisi Materi UKM 2</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">9 Januari 2021</th>
+                    <td>9 Januari 2021 Pengisi Materi UKM 3</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row">11 Januari 2021</th>
+                    <td>Penutupan Acara Veteran Art</td>
+                  </tr>
+
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Pengumuman Juara Lomba Di Acara Veteran Festival</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Rangkaian Acara----------------------------------------------------------------------------->
     <section class="container">
       <div class="d-flex flex-column justify-content-center align-items-center">
         <header class="mb-3">
-          <h2 class="title">Rangkaian Acara</h2>
+          <h2 class="title">Lomba</h2>
         </header>
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 mt-3">
-          <div class="col-6 col-sm text-center mb-3">
-            <h4 class="font-weight-bold my-1">VEFE</h4>
-            <span class="text-center"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span
+          <div class="col-6 col-sm text-center mb-3" style="width: 200px">
+            <figure>
+              <i class="fas fa-camera-retro fa-5x"></i>
+            </figure>
+            <a
+              href="veart/fotografi.html"
+              class="desc-link"
+              style="width: fit-content"
             >
+              <h4 class="font-weight-bold">Fotografi</h4>
+            </a>
           </div>
-          <div class="col-6 col-sm text-center mb-3">
-            <h4 class="font-weight-bold my-1">VERDE</h4>
-            <span class="text-center"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span
-            >
+          <div class="col-6 col-sm text-center mb-3" style="width: 200px">
+            <figure>
+              <i class="fas fa-film fa-5x"></i>
+            </figure>
+            <a href="veart/video-kreatif.html" class="desc-link">
+              <h4 class="font-weight-bold">Video Kreatif</h4>
+            </a>
           </div>
-          <div class="col-6 col-sm text-center mb-3">
-            <h4 class="font-weight-bold my-1">VSW</h4>
-            <span class="text-center"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span
-            >
+          <div class="col-6 col-sm text-center mb-3" style="width: 200px">
+            <figure>
+              <i class="fas fa-palette fa-5x"></i>
+            </figure>
+            <a href="veart/desain-grafis.html" class="desc-link">
+              <h4 class="font-weight-bold">Desain Grafis</h4>
+            </a>
           </div>
-          <div class="col-6 col-sm text-center mb-3">
-            <h4 class="font-weight-bold my-1">VEART</h4>
-            <span class="text-center"
-              >Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span
-            >
+          <div class="col-6 col-sm text-center mb-3" style="width: 200px">
+            <figure>
+              <i class="fas fa-guitar fa-5x"></i>
+            </figure>
+            <a href="veart/cover-lagu.html" class="desc-link">
+              <h4 class="font-weight-bold">Cover Lagu</h4>
+            </a>
           </div>
         </div>
       </div>
@@ -194,12 +307,120 @@
           <h2 class="title">FAQ</h2>
         </header>
 
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur
-          cum aut aliquid adipisci animi voluptates quod sed ut at omnis,
-          numquam hic vitae. Molestias debitis quaerat fugit iusto possimus
-          fuga. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique architecto dicta eos aspernatur corrupti odit id magnam eum non, ea maxime natus, quod voluptate nemo ipsum quas accusantium maiores. Officia.
-        </p>
+        <div id="accordion">
+          <div>
+            <div
+              class="card-header"
+              style="background: transparent"
+              id="headingOne"
+            >
+              <h5 class="mb-0">
+                <button
+                  class="btn desc-link"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-controls="collapseOne"
+                >
+                  Apa itu VEART ?
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse show"
+              aria-labelledby="headingOne"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="card-header"
+              style="background: transparent"
+              id="headingTwo"
+            >
+              <h5 class="mb-0">
+                <button
+                  class="btn desc-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#faqTwo"
+                  aria-controls="faqTwo"
+                >
+                  Apa itu VEART ?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="faqTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="card-header"
+              style="background: transparent"
+              id="headingThree"
+            >
+              <h5 class="mb-0">
+                <button
+                  class="btn desc-link collapsed"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-controls="collapseThree"
+                >
+                  Apa itu VEART ?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordion"
+            >
+              <div class="card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life
+                accusamus terry richardson ad squid. 3 wolf moon officia aute,
+                non cupidatat skateboard dolor brunch. Food truck quinoa
+                nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua
+                put a bird on it squid single-origin coffee nulla assumenda
+                shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
+                wes anderson cred nesciunt sapiente ea proident. Ad vegan
+                excepteur butcher vice lomo. Leggings occaecat craft beer
+                farm-to-table, raw denim aesthetic synth nesciunt you probably
+                haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
 
@@ -254,8 +475,5 @@
     integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
     crossorigin="anonymous"
   ></script>
-  <script
-    src="assets/styles/bootstrap/js/bootstrap.min.js"
-    crossorigin="anonymous"
-  ></script>
+  <script src="assets/js/main.js"></script>
 </html>
