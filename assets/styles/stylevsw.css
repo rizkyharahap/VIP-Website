@@ -1,8 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e9e3d9;
   box-sizing: border-box;
+  background-image: url('../vsw.png') ;
+  background-size: cover;
 }
 
 a {
@@ -13,18 +14,23 @@ a:hover {
   text-decoration: none;
 }
 section {
-  padding-top: 10vh;
+  padding-top: 108vh;
   padding-bottom: 10vh;
 }
 
+.container2{
+  padding-top: 20vh;
+  padding-bottom: 10vh;
+  color: rgb(255, 255, 255);
+}
 article {
-  color: rgb(50, 50, 50);
+  color: rgb(255, 255, 255);
 }
 
 .title {
   font-size: 1.75rem;
   font-weight: 700;
-  color: #760619;
+  color: rgb(255, 255, 255);
 }
 
 .desc-link {
@@ -33,7 +39,7 @@ article {
   border-bottom: 3px #ea9218 solid;
   display: inline-block;
   line-height: 1.3;
-  color: #760619;
+  color: rgb(255, 255, 255);
 }
 
 .desc-link:hover {
@@ -54,7 +60,7 @@ img {vertical-align: middle;}
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: rgb(255, 255, 255);
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
